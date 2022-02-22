@@ -99,7 +99,7 @@ def rect():
         h = int(input('altezza:' ))
         if b >= 3 and h>= 3:
             print(b*x)
-            for i in range(h):
+            for i in range(h-2):
                 print(x, y*(b-3), x)
             print(b*x)
 
