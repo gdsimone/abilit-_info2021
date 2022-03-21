@@ -1,6 +1,8 @@
 echo "Hello World";
 #es 1
 #command [flag] [argument]
+ls -l -t
+ls -l 
 
 #es 2
 mkdir esercizi_bash
