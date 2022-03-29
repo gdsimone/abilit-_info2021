@@ -14,6 +14,12 @@ ls | wc -l
 #3. scarta il comando che viene scritto
 
 #es 4
+#find cerca un file in base a vari attributi: nome, dimensione, autorizzazioni e così via.
+#il comando generale è find directory-name search-expression
+#la prima linea cerca nella directory \etc il file networkmanager
+#nelle ultime è presente > che è un comando di redirezione, ossia cattura l'output di un
+#file e lo invia come input ad un altro file
+
 
 #es 5
 #assicura che il processo in esecuzione non venga terminato quando si esce dal terminale
