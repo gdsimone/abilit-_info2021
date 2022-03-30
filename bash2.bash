@@ -9,9 +9,12 @@ alias la = 'ls -r'
 ls | wc -l
 
 #es 3
-#1.cerca il file esercitazione.txt ( comando find directory-name search-expression) 
-#2. cerca il file \*.py seguendo il path. Poi cerca 
-#3. scarta il comando che viene scritto
+#cerca il file esercitazione.txt nella directory data ( comando find directory-name search-expression) 
+#seleziona tutti i file nella directory data eccetto quelli .py seguendo il path. 
+#Poi grep -v prende in input linea per linea e da come output solo quelle in cui Token non appare.   
+#dev/null scarta il comando che viene scritto
+#Infine cat legge i dati dal file /var/log/syslog e | passa l'output del comando precedente come input
+#al file mylog.txt
 
 #es 4
 #find cerca un file in base a vari attributi: nome, dimensione, autorizzazioni e così via.
